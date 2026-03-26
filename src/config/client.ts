@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,15 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Vicky King6 reviewsa month ago Choosing Atlantis garden design and landscaping was definitely the right choice.
+After taking 2 and half years to build our forever home it was extremely … MoreLike Share Response from the owner", rating: 5, text: "Dear Vicky,  Thank you very much for taking the time to leave such a lovely and thoughtful …", date: "3 weeks ago" },
+    { name: "Andy Sparey", rating: 5, text: "New Atlantes Landscapes completed a grounds maintenance job for me, and I was blown away by the professionalism of the entire team. It was extremely smooth and stress free, from quoting to job completion. My team were also commenting on the …  ", date: "2 weeks ago" },
+    { name: "Clare McGee", rating: 5, text: "Top service! I can’t get over how amazing my garden looks. Got before and after pics to see how much work was done and such good value for money   Response from the owner 2 months agoHi Claire, Thank you so much for your 5 star review! The team and", date: "2 months ago" },
+    { name: "Mark", rating: 5, text: "Paul and his team installed us a complete new driveway, along with additional works. …  ", date: "2 years ago" },
+    { name: "John Freer", rating: 5, text: "Paul and his team are so professional. We were impressed right from the start, first with the very detailed estimate right through to the work being completed. Darren, Joe and Rob worked so hard despite some really challenging weather and …  ", date: "6 years ago" },
+    { name: "Stephen Kamalarajan", rating: 5, text: "Paul and his company are amazing. I have worked with Paul on 2 projects and he is meticulous. He shows you the potential of your project for a fair fee and does not add additional costs if the project is done in stages.  He is an extremely …  ", date: "4 years ago" },
+    { name: "Rob Dunn", rating: 5, text: "Firstly Paul is a very friendly guy, easy to work with and very capable. From initial concept, through material selection to final design Paul was very helpful and brought out some great ideas. …  ", date: "7 years ago" },
+    { name: "L Morgan", rating: 5, text: "Paul came out to quote for rebuilding a garden wall and building a set of brick steps. We had several quotes and decided to use the company as Paul reassured us that the work would be done exactly as we wanted; to tie in with the …    Response from", date: "4 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
